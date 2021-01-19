@@ -1,0 +1,76 @@
+html {
+    font-size: 16px;
+}
+
+.asliceoflife_logo {
+    content: url('asliceoflifeicons/asliceoflifelogo.png');
+    height: 150px;
+    display: block;
+    /* centering it with margins */
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50;*/
+}
+
+#gifs {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.gallery-title {
+    font-size: 36px;
+    font-family: 'Bad Script', cursive;
+    /* font-family: 'Noto Sans HK', sans-serif; */
+    color: #c09ff1;
+    text-align: center;
+    font-weight: 700;
+    padding: 40px 20;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #c09ff1;
+    border-radius: 5px;
+    text-align: center;
+    color: #c09ff1;
+    margin-bottom: 10px;
+}
+
+.filter-button:hover {
+    font-size: 18px;
+    border: 1px solid #b89de0;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #c09ff1;
+}
+
+.btn-default:active .filter-button:active {
+    background-color: #c09ff1;
+    color: #ffff;
+}
+
+.gallery_product {
+    /*margin-bottom: 30px;*/
+}
+
+.container {
+    text-align: center;
+}
+
+.all_buttons {
+    text-align: center;
+}
+
+/* gifs */
+.row {
+    text-align: center;
+}
+
+.row img {
+	max-width:100%;
+    height: auto;
+    display: block;
+	transition: 1s;
+	padding: 10px;
+}
